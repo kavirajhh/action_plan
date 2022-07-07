@@ -1,0 +1,62 @@
+  .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 2vh;
+      width:100%;
+
+      }
+  form {
+      width: 60%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 8px #006622; 
+      }
+      input, select, textarea {
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      }
+
+     
+
+
+
+      .item {
+      position: relative;
+      margin: 10px 0;
+      padding-left: 25px;
+      }
+      .item span {
+      color: red;
+      }
+      button {
+      width: 150px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background:  #006622;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+
+      }
+      button:hover {
+      background:  #00b33c;
+      }
+       input {
+      width: calc(100% - 10px);
+      padding: 5px;
+      }
+
+      @media screen and (max-width: 600px) {
+      form {
+      width: 90%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 8px #006622; 
+      }
+}

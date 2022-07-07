@@ -1,0 +1,204 @@
+* {box-sizing: border-box;}
+body{ 
+
+	background-image:url(../images/bg.jpeg);
+	background-size: 100%;
+	margin: 0px;
+}
+
+.leftcol {
+	float: left;
+  	width: 75%;
+	height: 100%;
+	padding: 0px 0px;
+	 
+   	}
+.rightcol {
+  	float: left;
+  	width: 25%;
+  	padding: 0px 0px;
+  	
+
+ 	}
+.loginbt{
+
+	position: absolute;
+  	bottom:20%;
+  	right: 0;
+  	width: 55vh;
+  	height: 10vh;
+  	background-color: #FB8122;
+  	transition: background-color 0.6s ease;
+  	
+ 	}
+.loginbt:hover {
+  background-color: #717171;
+  border-bottom: 3px solid red;
+  
+}
+
+
+
+.bttext{
+	text-decoration: none;
+	position: relative;
+	color: #000;
+  	font-size: 5vh;
+  	width:100%;
+  	top:25%;
+  	left:10%;
+}
+
+/*   side navigation panel */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+  box-shadow: 2px 2px 5px #fff;
+}
+.sidenav a {
+  padding: 0px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: Black;
+  display: block;
+  transition: 0.3s;
+  background-color: #f1f1f1;
+  opacity: 0.5;
+}
+.sidenav a:hover {
+  color: black;
+  background-color: #f1f1f1;
+  opacity: 0.5;
+}
+.sidenav .closebtn {
+ padding-top: 16px;
+ top: 0;
+ font-size: 25px;
+ height:10%;
+  
+}
+
+.form-group-befor{
+padding-top: 40%;
+}
+.form-group{
+ padding-top: 5%;
+
+}
+.textpro{
+  padding: 10px 10px 10px 10px;
+  font-size: 3vh;
+  color:#000;
+  border-color: white;
+  opacity: 0.9;
+}
+
+
+
+.login{
+  padding-top:20%;
+  font-size: 25px;
+  text-align: right;
+  color:f1f1f1;
+  
+}
+/*  menu item  */
+
+.app-menu__item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 15px;
+  font-size: 0.85em;
+  border-left: 3px solid transparent;
+  -webkit-transition: border-left-color 0.3s ease,
+ background-color 0.3s ease;
+  -o-transition: border-left-color 0.3s ease,
+ background-color 0.3s ease;
+  transition: border-left-color 0.3s ease,
+ background-color 0.3s ease;
+  color: rgb(26, 26, 26);
+}
+
+.app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus {
+  background: #4737AA;
+  border-left-color: #0e0357;
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar-mini.sidenav-toggled .app-menu__item {
+    overflow: hidden;
+  }
+  .sidebar-mini.sidenav-toggled .app-menu__item:hover {
+    overflow: visible;
+  }
+  .sidebar-mini.sidenav-toggled .app-menu__item:hover .app-menu__label {
+    opacity: 1;
+  }
+  .sidebar-mini.sidenav-toggled .app-menu__item:hover + .treeview-menu {
+    visibility: visible;
+  }
+.app-menu__icon {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 25px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .loginbt{bottom: 5vh;}
+  .login{bottom: 0;}
+}
+@media screen and (max-width: 450px) {
+
+  .sidenav {width:0px;}
+  .leftcol {width:0%;}
+  .rightcol {display: none;}
+
+}
+
+
+.hbt {
+  width:15vw;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FFcc80;
+}
+
+.hbt:hover {
+  background-color: #EC407A;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+   .hbt {
+    width:100%;
+    }
+}
+@media screen and (min-width: 600px) {
+   .hbtleft{
+  padding-left: 5vw;
+}
+}
+
+
+
+
+ 
+
+
+
